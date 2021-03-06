@@ -7,7 +7,7 @@ ls /sys/class/backlight
 # If you see amdgpu_bl0 then follow these commands:
 sudo chmod 777 /sys/class/backlight/amdgpu_bl0/brightness
 # Clone the repository in your user directory
-git clone 
+git clone https://github.com/particleofmass/i3wm-backlight-hotkeys.git
 # Now add these lines to your i3 config file(~/.config/i3/config)
 bindsym XF86MonBrightnessUp exec python3 ~/i3wm-backlight-hotkeys/brightness_py/amdgpu/brightness_up.py
 bindsym XF86MonBrightnessDown exec python3 ~/i3wm-backlight-hotkeys/brightness_py/amdgpu/brightness_down.py
@@ -18,7 +18,7 @@ bindsym XF86MonBrightnessDown exec python3 <location of the amdgpu/brightness_do
 # If you see intel_backlight then follow these commands:
 sudo chmod 777 /sys/class/backlight/intel_backlight/brightness
 # Clone the repository in your user directory
-git clone 
+git clone https://github.com/particleofmass/i3wm-backlight-hotkeys.git
 # Now add these lines to your i3 config file(~/.config/i3/config)
 bindsym XF86MonBrightnessUp exec python3 ~/i3wm-backlight-hotkeys/brightness_py/intelgpu/brightness_up.py
 bindsym XF86MonBrightnessDown exec python3 ~/i3wm-backlight-hotkeys/brightness_py/intelgpu/brightness_down.py
