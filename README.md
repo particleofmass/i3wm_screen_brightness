@@ -1,7 +1,7 @@
 # i3wm-backlight-hotkeys
 Map your hot keys to increase or decrease the screen brightness in i3 wm using easy python code
 
-Enter the following commmand:
+# Enter the following commmand:
 ls /sys/class/backlight
 
 # If you see amdgpu_bl0 then follow these commands:
