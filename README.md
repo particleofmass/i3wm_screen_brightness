@@ -18,9 +18,7 @@ sudo systemctl start brightness_py.service
 bindsym XF86MonBrightnessUp exec python3 ~/.i3wm-backlight-hotkeys/brightness_py/amdgpu/brightness_up.py \
 bindsym XF86MonBrightnessDown exec python3 ~/.i3wm-backlight-hotkeys/brightness_py/amdgpu/brightness_down.py
 ### If you cloned the repo in directory other than the use directory then:
-### for increasing brightness
-bindsym XF86MonBrightnessUp exec python3 <location of the amdgpu/brightness_up.py file>
-### for decreasing brightness
+bindsym XF86MonBrightnessUp exec python3 <location of the amdgpu/brightness_up.py file> \
 bindsym XF86MonBrightnessDown exec python3 <location of the amdgpu/brightness_down.py file>
 
 
@@ -37,5 +35,5 @@ sudo systemctl start brightness_py.service
 bindsym XF86MonBrightnessUp exec python3 ~/.i3wm-backlight-hotkeys/brightness_py/intelgpu/brightness_up.py \
 bindsym XF86MonBrightnessDown exec python3 ~/.i3wm-backlight-hotkeys/brightness_py/intelgpu/brightness_down.py
 ### If you cloned the repo in directory other than the use directory then:
-bindsym XF86MonBrightnessUp exec python3 <location of the intelgpu/brightness_up.py file>
+bindsym XF86MonBrightnessUp exec python3 <location of the intelgpu/brightness_up.py file> \
 bindsym XF86MonBrightnessDown exec python3 <location of the intelgpu/brightness_down.py file>
