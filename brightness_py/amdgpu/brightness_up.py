@@ -13,8 +13,8 @@ f.close()
 f = open("/sys/class/backlight/amdgpu_bl0/brightness", "w")
 
 # increase brightness by 5
-bl += 5
-
+if int(bl) <= 250 :
+  bl += 5
 # Replace the old brightness level with the new one
 f.write(str(bl))
 
