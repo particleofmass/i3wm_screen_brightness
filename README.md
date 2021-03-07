@@ -12,8 +12,8 @@ git clone https://github.com/particleofmass/.i3wm-backlight-hotkeys.git
 ### If you cloned the repo in the user directory then use
 sudo mv ~/.i3wm-backlight-hotkeys/brightness_py/amdgpu/brightness_py.service /etc/systemd/system/brightness_py.service
 ### Enable and start the service file. So run:
-sudo systemctl enable backlight_py.service \
-sudo systemctl start backlight_py.service
+sudo systemctl enable brightness_py.service \
+sudo systemctl start brightness_py.service
 ### Now add these lines to your i3 config file(~/.config/i3/config)
 ### for increasing brightness
 bindsym XF86MonBrightnessUp exec python3 ~/.i3wm-backlight-hotkeys/brightness_py/amdgpu/brightness_up.py
@@ -33,8 +33,8 @@ git clone https://github.com/particleofmass/.i3wm-backlight-hotkeys.git
 ### If you cloned the repo in the user directory then use
 sudo mv ~/.i3wm-backlight-hotkeys/brightness_py/intelgpu/brightness_py.service /etc/systemd/system/brightness_py.service
 ### Enable and start the service file. So run:
-sudo systemctl enable backlight_py.service \
-sudo systemctl start backlight_py.service
+sudo systemctl enable brightness_py.service \
+sudo systemctl start brightness_py.service
 ### Now add these lines to your i3 config file(~/.config/i3/config)
 ### for increasing brightness
 bindsym XF86MonBrightnessUp exec python3 ~/.i3wm-backlight-hotkeys/brightness_py/intelgpu/brightness_up.py
