@@ -20,7 +20,7 @@ bindsym XF86MonBrightnessDown exec python3 ~/.i3wm-backlight-hotkeys/brightness_
 ### If you cloned the repo in directory other than the use directory then:
 bindsym XF86MonBrightnessUp exec python3 <location of the amdgpu/brightness_up.py file> \
 bindsym XF86MonBrightnessDown exec python3 <location of the amdgpu/brightness_down.py file>
-# Now logout and log back in or Reload the i3 config file by pressing:
+### Now logout and log back in or Reload the i3 config file by pressing:
 $mod+shift+c
 
 # If you see/have intel_backlight then follow these commands:
@@ -38,5 +38,5 @@ bindsym XF86MonBrightnessDown exec python3 ~/.i3wm-backlight-hotkeys/brightness_
 ### If you cloned the repo in directory other than the use directory then:
 bindsym XF86MonBrightnessUp exec python3 <location of the intelgpu/brightness_up.py file> \
 bindsym XF86MonBrightnessDown exec python3 <location of the intelgpu/brightness_down.py file>
-# Now logout and log back in or Reload the i3 config file by pressing:
+### Now logout and log back in or Reload the i3 config file by pressing:
 $mod+shift+c
