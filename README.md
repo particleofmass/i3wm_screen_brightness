@@ -28,7 +28,7 @@ bindsym XF86MonBrightnessDown exec python3 <location of the amdgpu/brightness_do
 
 # If you see/have intel_backlight then follow these commands:
 # Clone the repository in your user directory
-git clone https://github.com/particleofmass/i3wm-backlight-hotkeys.git
+git clone https://github.com/particleofmass/.i3wm-backlight-hotkeys.git
 # Move the file i3wm-backlight-hotkeys/intelgpu/brightness_py.service to /etc/systemd/system/
 # If you cloned the repo in the user directory then use
 mv ~/.i3wm-backlight-hotkeys/intelgpu/brightness_py.service /etc/systemd/system/
