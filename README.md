@@ -10,7 +10,7 @@ ls /sys/class/backlight
 git clone https://github.com/particleofmass/.i3wm-backlight-hotkeys.git
 ### Move the file .i3wm-backlight-hotkeys/brightness_py/amdgpu/brightness_py.service to /etc/systemd/system/
 ### If you cloned the repo in the user directory then use
-mv ~/.i3wm-backlight-hotkeys/brightness_py/amdgpu/brightness_py.service /etc/systemd/system/
+sudo mv ~/.i3wm-backlight-hotkeys/brightness_py/amdgpu/brightness_py.service /etc/systemd/system/
 ### Enable and start the service file. So run:
 sudo systemctl enable backlight_py.service
 sudo systemctl start backlight_py.service
@@ -31,7 +31,7 @@ bindsym XF86MonBrightnessDown exec python3 <location of the amdgpu/brightness_do
 git clone https://github.com/particleofmass/.i3wm-backlight-hotkeys.git
 ### Move the file i3wm-backlight-hotkeys/brightness_py/intelgpu/brightness_py.service to /etc/systemd/system/
 ### If you cloned the repo in the user directory then use
-mv ~/.i3wm-backlight-hotkeys/brightness_py/intelgpu/brightness_py.service /etc/systemd/system/
+sudo mv ~/.i3wm-backlight-hotkeys/brightness_py/intelgpu/brightness_py.service /etc/systemd/system/
 ### Enable and start the service file. So run:
 sudo systemctl enable backlight_py.service
 sudo systemctl start backlight_py.service
