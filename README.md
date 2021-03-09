@@ -1,5 +1,5 @@
 # i3wm-backlight
-Map your hot keys to increase or decrease the screen brightness in i3 wm using easy python code
+Map your hot keys to increase or decrease the screen brightness in i3 wm
 
 ## Install brightnessctl
 ### ARCH
