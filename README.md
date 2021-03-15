@@ -1,4 +1,4 @@
-# i3wm-backlight
+# i3wm_screen_brightness
 Map your hot keys to increase or decrease the screen brightness in i3 wm
 
 ## Install brightnessctl
@@ -12,7 +12,9 @@ sudo dnf install brightnessctl
 
 ## Paste these lines in your i3 config file(~/.config/i3/config)
 
-bindsym XF86MonBrightnessUp exec brightnessctl -q set +5 
+# Increase brightness
+bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +5%
+# Decrease brightness
+bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 5%-
 
-bindsym XF86MonBrightnessDown exec brightnessctl -q set $(($(brightnessctl get)-5))
 
