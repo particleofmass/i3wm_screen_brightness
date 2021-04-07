@@ -12,9 +12,9 @@ sudo dnf install brightnessctl
 
 ## Paste these lines in your i3 config file(~/.config/i3/config)
 
-# Increase brightness
+### Increase brightness
 bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +5%
-# Decrease brightness
+### Decrease brightness
 bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 5%-
 
 
