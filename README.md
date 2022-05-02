@@ -1,7 +1,7 @@
 # i3wm_screen_brightness
 Map your hot keys to increase or decrease the screen brightness in i3 wm
 
-## Install brightnessctl
+## Install [brightnessctl](https://github.com/Hummer12007/brightnessctl)
 ### ARCH
 sudo pacman -S brightnessctl
 ### DEBIAN
